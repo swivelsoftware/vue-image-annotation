@@ -3,10 +3,10 @@
     <brush :curBrush="curBrush" @onSelectBrush="handleSelectBrush" />
     <div class="imgdw-split-line" />
     <v-icon @click.native.stop="handleUndo">undo</v-icon>
-    <v-icon @click.native.stop="handleScale('narrow')">narrow</v-icon>
-    <v-icon @click.native.stop="handleScale('enlarge')">enlarge</v-icon>
-    <v-icon @click.native.stop="handleCancel">enlarge</v-icon>
-    <v-icon @click.native.stop="handleConfirm">enlarge</v-icon>
+    <v-icon @click.native.stop="handleScale('narrow')">zoom_out</v-icon>
+    <v-icon @click.native.stop="handleScale('enlarge')">zoom_in</v-icon>
+    <v-icon @click.native.stop="handleCancel">cancel</v-icon>
+    <v-icon @click.native.stop="handleConfirm">check_circle</v-icon>
   </draggable>
 </template>
 

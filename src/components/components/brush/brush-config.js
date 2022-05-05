@@ -1,18 +1,18 @@
 export default [
   {
     name: 'rect',
-    icon: 'icon-juxing'
+    icon: 'crop_square'
   },
   {
     name: 'circle',
-    icon: 'icon-tuoyuan'
+    icon: 'radio_button_unchecked'
   },
   {
     name: 'line',
-    icon: 'icon-huabi'
+    icon: 'horizontal_rule'
   },
   {
     name: 'text',
-    icon: 'icon-wenzi'
+    icon: 'title'
   }
 ];
