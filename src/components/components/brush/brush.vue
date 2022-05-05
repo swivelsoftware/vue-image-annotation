@@ -1,7 +1,7 @@
 <template>
   <div class="imgdw-brush">
     <v-icon
-      class="imgdw-brush-btn"
+      class="pa-1"
       v-for="item in brushList"
       :key="item.name"
       :class="{ 'imgdw-brush-btn-active': curBrush === item.name }"

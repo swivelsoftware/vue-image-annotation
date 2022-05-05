@@ -2,11 +2,11 @@
   <draggable class="imgdw-toolbar" ref="draggable">
     <brush :curBrush="curBrush" @onSelectBrush="handleSelectBrush" />
     <div class="imgdw-split-line" />
-    <v-icon @click.native.stop="handleUndo">undo</v-icon>
-    <v-icon @click.native.stop="handleScale('narrow')">zoom_out</v-icon>
-    <v-icon @click.native.stop="handleScale('enlarge')">zoom_in</v-icon>
-    <v-icon @click.native.stop="handleCancel">cancel</v-icon>
-    <v-icon @click.native.stop="handleConfirm">check_circle</v-icon>
+    <v-icon class="pa-1" @click.native.stop="handleUndo">undo</v-icon>
+    <v-icon class="pa-1" @click.native.stop="handleScale('narrow')">zoom_out</v-icon>
+    <v-icon class="pa-1" @click.native.stop="handleScale('enlarge')">zoom_in</v-icon>
+    <v-icon color="red" class="pa-1" @click.native.stop="handleCancel">cancel</v-icon>
+    <v-icon color="green" class="pa-1" @click.native.stop="handleConfirm">check_circle</v-icon>
   </draggable>
 </template>
 
@@ -65,7 +65,7 @@ export default {
 .imgdw-toolbar {
   position: absolute;
   height: 42px;
-  background-color: rgb(162, 163, 175);
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   padding: 0 15px;

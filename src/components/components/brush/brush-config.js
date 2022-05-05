@@ -1,7 +1,7 @@
 export default [
   {
     name: 'rect',
-    icon: 'crop_square'
+    icon: 'check_box_outline_blank'
   },
   {
     name: 'circle',
