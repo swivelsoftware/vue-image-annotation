@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import icon from '../icon/icon.vue';
 import draggable from '../draggable/draggable.vue';
 import brush from '../brush/brush.vue';
 
@@ -19,7 +18,6 @@ export default {
   name: 'imgdwToolbar',
 
   components: {
-    icon,
     draggable,
     brush
   },
