@@ -1,16 +1,12 @@
 <template>
   <draggable class="imgdw-toolbar" ref="draggable">
     <brush :curBrush="curBrush" @onSelectBrush="handleSelectBrush" />
-
     <div class="imgdw-split-line" />
-
-    <icon class="imgdw-btn imgdw-btn-undo" icon="icon-chexiao" @click.native.stop="handleUndo" />
-    <icon class="imgdw-btn imgdw-btn-narrow" icon="icon-suoxiao" @click.native.stop="handleScale('narrow')" />
-    <icon class="imgdw-btn imgdw-btn-enlarge" icon="icon-fangda" @click.native.stop="handleScale('enlarge')" />
-    <!-- <span class="imgdw-scale-percent">{{ parseInt(canvasScale * 100) }}%</span> -->
-
-    <icon class="imgdw-btn imgdw-btn-cancel" icon="icon-guanbi" @click.native.stop="handleCancel" />
-    <icon class="imgdw-btn imgdw-btn-confirm" icon="icon-duigou" @click.native.stop="handleConfirm" />
+    <v-icon @click.native.stop="handleUndo">undo</v-icon>
+    <v-icon @click.native.stop="handleScale('narrow')">narrow</v-icon>
+    <v-icon @click.native.stop="handleScale('enlarge')">enlarge</v-icon>
+    <v-icon @click.native.stop="handleCancel">enlarge</v-icon>
+    <v-icon @click.native.stop="handleConfirm">enlarge</v-icon>
   </draggable>
 </template>
 
