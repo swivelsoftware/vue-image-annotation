@@ -1,13 +1,14 @@
 <template>
   <div class="imgdw-brush">
-    <icon
+    <v-icon
       class="imgdw-brush-btn"
       v-for="item in brushList"
       :key="item.name"
-      :icon="item.icon"
       :class="{ 'imgdw-brush-btn-active': curBrush === item.name }"
       @click.native.stop="handleSelectBrush(item.name)"
-    />
+    >
+    {{ item.icon }}
+    </v-icon>
   </div>
 </template>
 
