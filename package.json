@@ -1,5 +1,5 @@
 {
-  "name": "vue-image-annotation",
+  "name": "@swivel-admin/vue-image-annotation",
   "description": "add annotation to the picture",
   "homepage": "https://github.com/wawjqyh/vue-image-annotation",
   "repository": {
