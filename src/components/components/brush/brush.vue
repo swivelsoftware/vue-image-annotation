@@ -13,15 +13,11 @@
 </template>
 
 <script>
-import icon from '../icon/icon.vue';
 import brushList from './brush-config';
 
 export default {
   name: 'imgdwBrush',
 
-  components: {
-    icon
-  },
 
   props: {
     curBrush: String
